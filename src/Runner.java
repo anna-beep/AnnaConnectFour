@@ -48,13 +48,13 @@ public class Runner {
                 }
             }
 
+
             //computer move
             int[] cMove = computer.determineMove();
             board.makeMove(cMove[0], computer.token);
 
             //all done moving, display and repeat
             board.printBoard();
-
         }
         System.out.print("Game Over!");
     }
